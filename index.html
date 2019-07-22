@@ -55,7 +55,7 @@
                     <input type="checkbox" class="filled-in" v-model="todo.done">
                     <span v-bind:class="{ done: todo.done}">{{ todo.text }}</span>
                     </label>
-                    <a id="delete" @click="removeTodo"><i class="tiny
+                    <a id="delete" @click="removeTodo(todo)"><i class="tiny
                      material-icons">delete</i></a>
                   </div>
                 </li>
