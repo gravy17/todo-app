@@ -1,2 +1,2 @@
-# app-frontend
+# VueJS Todo app
 
